@@ -9,6 +9,7 @@ env:
     - OCAML_VERSION=4.04
     - TESTS=false
     - PACKAGE=sm-cli
+    - PINS="xapi-idl:git://github.com/xapi-project/xcp-idl#feature/REQ477/master xcp:git://github.com/xapi-project/xcp-idl#feature/REQ477/master"
   matrix:
     - BASE_REMOTE=git://github.com/xapi-project/xs-opam
     - EXTRA_REMOTES=git://github.com/xapi-project/xs-opam
